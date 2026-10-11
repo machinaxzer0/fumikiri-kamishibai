@@ -1,0 +1,30 @@
+{
+  "title": "【テスト】投票画面の動作確認",
+  "_note": "テストデータ（投票画面の動作確認用）。本番のトレンド解説ではありません。",
+  "characters": {
+    "mika": { "name": "ミカ", "expressions": ["joy", "normal", "surprised", "angry", "sad"] },
+    "tsubame": { "name": "つばめ", "expressions": ["joy", "normal", "surprised", "angry", "sad"] }
+  },
+  "expression_labels": { "joy": "喜び", "normal": "通常", "surprised": "驚き", "angry": "怒り", "sad": "悲しみ" },
+  "pages": [
+    { "page": 1, "lines": [
+      { "speaker": "tsubame", "expression": "joy", "text": "【テスト】今日は投票画面のテストだよ！" },
+      { "speaker": "mika", "expression": "normal", "text": "最後まで読むと、質問と選択肢が出てくるはず。" }
+    ]},
+    { "page": 2, "lines": [
+      { "speaker": "tsubame", "expression": "surprised", "text": "えっ、どれか一つ選ぶの？" },
+      { "speaker": "mika", "expression": "sad", "text": "うまく選べなかったら……「どれにも当てはまらない」もあるよ。" },
+      { "speaker": "tsubame", "expression": "angry", "text": "よーし、ちゃんと考えて選ぶぞ！" }
+    ]}
+  ],
+  "poll": {
+    "question": "【テスト】踏切で待っているとき、いちばん気になるのは？",
+    "options": [
+      { "id": "a", "label": "電車の種類", "summary": "どんな車両が来るかワクワクする。" },
+      { "id": "b", "label": "待ち時間", "summary": "あと何分で開くのかが気になる。" },
+      { "id": "c", "label": "安全のしくみ", "summary": "遮断機や警報機、非常ボタン、障害物検知装置など、踏切にはたくさんの安全装置がある。それぞれがどうやって連動して、電車が近づいたことを知らせたり、取り残された人や車を守ったりしているのか、仕組みをくわしく知りたい。長い要約が折り返し・スクロールで正しく表示されるかのテスト用の文章でもあります。" },
+      { "id": "d", "label": "まわりの景色", "summary": "空や街並みをながめる。" }
+    ],
+    "none_option": { "id": "none", "label": "どれにも当てはまらない" }
+  }
+}

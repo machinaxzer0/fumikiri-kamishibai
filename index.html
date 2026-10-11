@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>紙芝居</title>
+<link rel="icon" href="data:,">
+<script>
+  // Send visitors to app/, keeping any ?query and #hash (for example ?scenario=).
+  location.replace('app/' + location.search + location.hash);
+</script>
+<meta http-equiv="refresh" content="0; url=app/">
+</head>
+<body>
+<p>紙芝居を開いています… <a id="go" href="app/">開かない場合はこちら</a></p>
+<script>
+  document.getElementById('go').href = 'app/' + location.search + location.hash;
+</script>
+</body>
+</html>

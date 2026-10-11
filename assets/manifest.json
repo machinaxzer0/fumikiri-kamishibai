@@ -1,0 +1,220 @@
+{
+  "version": 2,
+  "title": "ミカとつばめの 踏切まめちしき",
+  "canvas": {
+    "width": 900,
+    "height": 1600
+  },
+  "layering": "表情ごとに全身立ち絵 full_<expression>.png を丸ごと差し替える（顔パーツ合成は廃止）。同一キャラの全表情は同じキャンバス・同じスケール・同じ位置なので、差し替え時に体は動かない。",
+  "anchor": "足元 = キャンバス下端 (y≈1594-1599)、キャラ外接矩形中心 ≈ 水平中央 (x=450)。スケールは原画 1:1（リサンプリングなし）。",
+  "expression_ids": [
+    "joy",
+    "normal",
+    "surprised",
+    "angry",
+    "sad"
+  ],
+  "expression_labels": {
+    "joy": "喜び",
+    "normal": "通常",
+    "surprised": "驚き",
+    "angry": "怒り",
+    "sad": "悲しみ"
+  },
+  "characters": {
+    "mika": {
+      "name": "ミカ",
+      "fullName": "踏切のミカ",
+      "expressions": {
+        "joy": {
+          "path": "characters/mika/full_joy.png",
+          "status": "delivered",
+          "source": "source/user-standing/mika_joy.png",
+          "bbox": [
+            156,
+            106,
+            743,
+            1594
+          ],
+          "registration_shift_px": [
+            -1.0,
+            -1.0
+          ]
+        },
+        "normal": {
+          "path": "characters/mika/full_normal.png",
+          "status": "delivered",
+          "source": "source/user-standing/mika_normal.png",
+          "bbox": [
+            156,
+            106,
+            743,
+            1594
+          ],
+          "registration_shift_px": [
+            -0.0,
+            -0.0
+          ]
+        },
+        "surprised": {
+          "path": "characters/mika/full_surprised.png",
+          "status": "delivered",
+          "source": "source/user-standing/mika_surprised.png",
+          "bbox": [
+            156,
+            105,
+            746,
+            1598
+          ],
+          "registration_shift_px": [
+            -0.0,
+            -0.0
+          ]
+        },
+        "angry": {
+          "path": "characters/mika/full_angry.png",
+          "status": "delivered",
+          "source": "source/user-standing/mika_angry.png",
+          "bbox": [
+            156,
+            105,
+            747,
+            1597
+          ],
+          "registration_shift_px": [
+            -0.0,
+            -1.0
+          ]
+        },
+        "sad": {
+          "path": "characters/mika/full_sad.png",
+          "status": "delivered",
+          "source": "source/user-standing/mika_sad.png",
+          "bbox": [
+            153,
+            105,
+            747,
+            1598
+          ],
+          "registration_shift_px": [
+            -1.0,
+            -0.0
+          ]
+        }
+      },
+      "pending": [],
+      "alignment_reference": "normal",
+      "placement_from_source": {
+        "scale": 1.0,
+        "dx": -80,
+        "dy": 96,
+        "note": "canvas(x,y) = source(x - dx + shift_x, y - dy + shift_y)、shift は整数px（ニアレスト、画質劣化なし）"
+      },
+      "legacy": {
+        "note": "旧 base + face レイヤー方式は廃止",
+        "dir": "characters/mika/old/"
+      }
+    },
+    "tsubame": {
+      "name": "つばめ",
+      "fullName": "踏切つばめ",
+      "expressions": {
+        "joy": {
+          "path": "characters/tsubame/full_joy.png",
+          "status": "delivered",
+          "source": "source/user-standing/tsubame_joy.png",
+          "bbox": [
+            55,
+            97,
+            846,
+            1597
+          ],
+          "registration_shift_px": [
+            -1.0,
+            -1.0
+          ]
+        },
+        "normal": {
+          "path": "characters/tsubame/full_normal.png",
+          "status": "delivered",
+          "source": "source/user-standing/tsubame_normal.png",
+          "bbox": [
+            57,
+            103,
+            843,
+            1594
+          ],
+          "registration_shift_px": [
+            -0.0,
+            -0.0
+          ]
+        },
+        "surprised": {
+          "path": "characters/tsubame/full_surprised.png",
+          "status": "delivered",
+          "source": "source/user-standing/tsubame_surprised.png",
+          "bbox": [
+            56,
+            99,
+            847,
+            1596
+          ],
+          "registration_shift_px": [
+            -0.0,
+            -1.0
+          ]
+        },
+        "angry": {
+          "path": "characters/tsubame/full_angry.png",
+          "status": "delivered",
+          "source": "source/user-standing/tsubame_angry.png",
+          "bbox": [
+            57,
+            99,
+            847,
+            1595
+          ],
+          "registration_shift_px": [
+            -1.0,
+            -1.0
+          ]
+        },
+        "sad": {
+          "path": "characters/tsubame/full_sad.png",
+          "status": "delivered",
+          "source": "source/user-standing/tsubame_sad.png",
+          "bbox": [
+            55,
+            99,
+            847,
+            1595
+          ],
+          "registration_shift_px": [
+            -1.0,
+            -1.0
+          ]
+        }
+      },
+      "pending": [],
+      "alignment_reference": "normal",
+      "placement_from_source": {
+        "scale": 1.0,
+        "dx": -76,
+        "dy": 98,
+        "note": "canvas(x,y) = source(x - dx + shift_x, y - dy + shift_y)、shift は整数px（ニアレスト、画質劣化なし）"
+      },
+      "legacy": {
+        "note": "旧 base + face レイヤー方式は廃止",
+        "dir": "characters/tsubame/old/"
+      }
+    }
+  },
+  "previews": {
+    "contact_sheet": "preview.png",
+    "alignment_diff": "preview_alignment.png",
+    "alignment_flicker": [
+      "align_mika.gif",
+      "align_tsubame.gif"
+    ]
+  }
+}

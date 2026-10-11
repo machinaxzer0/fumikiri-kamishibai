@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>紙芝居</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage" class="stage" aria-live="polite">
+  <div id="bg" class="bg"><div class="bg-crossing"></div></div>
+  <div id="title" class="title-plate"></div>
+  <div id="page-indicator" class="page-indicator">–/–</div>
+  <div id="chars" class="chars"></div>
+
+  <div id="textbox" class="textbox" tabindex="0">
+    <div id="speaker" class="speaker"></div>
+    <div id="text" class="text"></div>
+    <div id="next-mark" class="next-mark">▼</div>
+    <!-- UI buttons live inside the text box (bottom row, centre) so they never sit over character art -->
+    <div class="controls">
+      <button id="btn-back" title="ひとつ戻る (← / Backspace)">◀ 戻る</button>
+      <button id="btn-log" title="ログ (L)">ログ</button>
+      <button id="btn-restart" title="最初から (R)">最初から</button>
+    </div>
+    <!-- end screen is shown inside the text box too -->
+    <div id="end-overlay" class="end-overlay hidden">
+      <div class="end-title">おしまい</div>
+      <div class="end-buttons">
+        <button id="btn-end-restart">もう一度はじめから</button>
+        <button id="btn-end-log">ログを見る</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="log-overlay" class="log-overlay hidden">
+    <div class="log-panel">
+      <div class="log-head"><span>ログ</span><button id="btn-log-close">閉じる ✕</button></div>
+      <div id="log-list" class="log-list"></div>
+    </div>
+  </div>
+
+  <div id="error" class="error hidden"></div>
+</div>
+<script src="config.js"></script>
+<script src="assetlib.js"></script>
+<script src="poll.js"></script>
+<script src="engine.js"></script>
+</body>
+</html>
