@@ -1,0 +1,299 @@
+{
+  "title": "ミカとつばめの 踏切まめちしき",
+  "characters": {
+    "mika": {
+      "name": "ミカ",
+      "expressions": [
+        "joy",
+        "normal",
+        "surprised",
+        "angry",
+        "sad"
+      ]
+    },
+    "tsubame": {
+      "name": "つばめ",
+      "expressions": [
+        "joy",
+        "normal",
+        "surprised",
+        "angry",
+        "sad"
+      ]
+    }
+  },
+  "expression_labels": {
+    "joy": "喜び",
+    "normal": "通常",
+    "surprised": "驚き",
+    "angry": "怒り",
+    "sad": "悲しみ"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "lines": [
+        {
+          "speaker": "tsubame",
+          "expression": "surprised",
+          "text": "あっ、カンカン鳴ってる！ ミカ、ちょっと待っててね。ちゃんと止まるから。"
+        },
+        {
+          "speaker": "mika",
+          "expression": "joy",
+          "text": "うん、待とう。……ねえ、つばめ。せっかくだから、待ってるあいだに踏切のお話しない？"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "joy",
+          "text": "するする！ 今日は「踏切まめちしき」の日だね！"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "lines": [
+        {
+          "speaker": "mika",
+          "expression": "normal",
+          "text": "まずはクイズ。日本に踏切って、どのくらいあると思う？"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "normal",
+          "text": "うーん……1万くらい？"
+        },
+        {
+          "speaker": "mika",
+          "expression": "joy",
+          "text": "正解は、全国で3万か所以上。国土交通省がちゃんと数えてるんだよ。"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "surprised",
+          "text": "さ、3万！？ 思ってたよりずっと多い！"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "lines": [
+        {
+          "speaker": "tsubame",
+          "expression": "normal",
+          "text": "踏切って、ぜんぶ同じじゃないんだよね？"
+        },
+        {
+          "speaker": "mika",
+          "expression": "normal",
+          "text": "うん。法律の上では「第1種」から「第4種」に分かれてるの。"
+        },
+        {
+          "speaker": "mika",
+          "expression": "normal",
+          "text": "第1種は、遮断機と警報機の両方がある踏切。いま私たちの前にあるのがそれだね。"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "joy",
+          "text": "いちばんよく見るタイプだ！"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "lines": [
+        {
+          "speaker": "mika",
+          "expression": "normal",
+          "text": "第3種は、警報機だけあって遮断機がない踏切。"
+        },
+        {
+          "speaker": "mika",
+          "expression": "sad",
+          "text": "第4種は、遮断機も警報機もない踏切。音も鳴らないから、自分の目と耳でしっかり確かめないといけないの。"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "surprised",
+          "text": "あれ、第2種は？"
+        },
+        {
+          "speaker": "mika",
+          "expression": "joy",
+          "text": "第2種は、時間帯によって係の人が遮断機を動かす踏切。でも、今はもう残ってないんだって。"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "lines": [
+        {
+          "speaker": "tsubame",
+          "expression": "normal",
+          "text": "ねえミカ、踏切の上についてる、黄色と黒の「×」のマーク。あれにも名前あるの？"
+        },
+        {
+          "speaker": "mika",
+          "expression": "joy",
+          "text": "あるよ。「踏切警標」っていうの。ここに踏切がありますよ、って知らせる目印。"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "joy",
+          "text": "私たちのヘアピンとおそろいだね！"
+        },
+        {
+          "speaker": "mika",
+          "expression": "joy",
+          "text": "……ふふ、そうだね。"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "lines": [
+        {
+          "speaker": "mika",
+          "expression": "normal",
+          "text": "車や自転車は、踏切の前で一度止まって、左右を確かめてから渡る決まりなの。道路交通法っていう法律で決まってるんだよ。"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "normal",
+          "text": "例外もあるんだよね？"
+        },
+        {
+          "speaker": "mika",
+          "expression": "joy",
+          "text": "うん。信号機のある踏切で、信号が青なら、止まらずに進んでいいの。"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "angry",
+          "text": "でも、カンカン鳴り始めたら、渡り始めちゃダメ！ これも法律で決まってます！"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "lines": [
+        {
+          "speaker": "tsubame",
+          "expression": "normal",
+          "text": "じゃあ次は私から。踏切の横にある「非常ボタン」、知ってる？"
+        },
+        {
+          "speaker": "mika",
+          "expression": "normal",
+          "text": "うん。押すとどうなるんだっけ？"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "joy",
+          "text": "線路ぞいの「特殊信号発光機」っていうランプが光って、近づいてくる電車の運転士さんに「止まって！」って知らせるの。"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "normal",
+          "text": "人や車が取り残されたときは、迷わず押してね。"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "lines": [
+        {
+          "speaker": "mika",
+          "expression": "sad",
+          "text": "もし車で踏切の中に閉じこめられちゃったら……こわいよね。"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "normal",
+          "text": "だいじょうぶ。遮断機の棒、「遮断かん」は、車でゆっくり押せば曲がったり外れたりするように作られてるの。"
+        },
+        {
+          "speaker": "mika",
+          "expression": "surprised",
+          "text": "えっ、壊しちゃっていいの？"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "joy",
+          "text": "命がいちばん大事だもん。ためらわずに押して、外に出てね。"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "lines": [
+        {
+          "speaker": "tsubame",
+          "expression": "normal",
+          "text": "……それにしても、今日はなかなか開かないね。"
+        },
+        {
+          "speaker": "mika",
+          "expression": "joy",
+          "text": "「開かずの踏切」って言葉、あるよね。実はあれ、ちゃんと基準があるの。"
+        },
+        {
+          "speaker": "mika",
+          "expression": "normal",
+          "text": "電車がいちばん多い時間に、1時間のうち40分以上閉まっている踏切のことなんだって。"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "surprised",
+          "text": "1時間で40分も！？ それは遅刻しちゃう……！"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "lines": [
+        {
+          "speaker": "mika",
+          "expression": "normal",
+          "text": "それから、踏切には一つひとつ名前と番号がついてるの。"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "normal",
+          "text": "そっか、何かあって通報するとき、「どこの踏切か」がすぐ伝わるね。"
+        },
+        {
+          "speaker": "mika",
+          "expression": "joy",
+          "text": "うん。いつも渡る踏切の名前、今度いっしょに見てみよう？"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "lines": [
+        {
+          "speaker": "tsubame",
+          "expression": "joy",
+          "text": "あ、上がった！ 遮断機、開いたよ！"
+        },
+        {
+          "speaker": "mika",
+          "expression": "joy",
+          "text": "安全は、みんなのやさしさからできてるんだよ。"
+        },
+        {
+          "speaker": "tsubame",
+          "expression": "joy",
+          "text": "止まって、見て、確かめて。それから——"
+        },
+        {
+          "speaker": "mika",
+          "expression": "joy",
+          "text": "ねえ、一緒に渡ろ？ ……この先、きっと楽しいことあるよ。"
+        }
+      ]
+    }
+  ]
+}

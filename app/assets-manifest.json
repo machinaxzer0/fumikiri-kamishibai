@@ -1,0 +1,34 @@
+{
+  "version": 3,
+  "_comment": "キャラ定義のみ。画像ファイルは assetManifest（アセット作成者の manifest.json）に掲載されたものだけを読み込む（推測リクエストなし）。",
+  "assetManifest": "../assets/manifest.json",
+  "expressions": ["joy", "normal", "surprised", "angry", "sad"],
+  "expressionLabels": { "joy": "喜び", "normal": "通常", "surprised": "驚き", "angry": "怒り", "sad": "悲しみ" },
+  "fallbackOrder": {
+    "normal":    ["joy", "surprised", "sad", "angry"],
+    "joy":       ["normal", "surprised", "sad", "angry"],
+    "surprised": ["normal", "joy", "angry", "sad"],
+    "angry":     ["normal", "surprised", "sad", "joy"],
+    "sad":       ["normal", "surprised", "angry", "joy"]
+  },
+  "legacyExpressionMap": {
+    "_comment": "旧ID→新ID（シナリオの一時読み替え／旧 base+face マニフェストの一時利用）。",
+    "smile": "joy", "happy": "joy", "cry": "sad", "troubled": "sad", "shy": "normal", "eyes_closed": "normal"
+  },
+  "characters": {
+    "mika": {
+      "name": "ミカ",
+      "fullName": "踏切のミカ",
+      "aliases": ["mika", "ミカ", "みか", "踏切のミカ", "ふみきりのミカ", "fumikiri no mika"],
+      "color": "#9aa3b5",
+      "position": "left"
+    },
+    "tsubame": {
+      "name": "つばめ",
+      "fullName": "踏切つばめ",
+      "aliases": ["tsubame", "つばめ", "ツバメ", "燕", "踏切つばめ", "踏切 つばめ", "ふみきりつばめ", "fumikiri tsubame"],
+      "color": "#5b4a42",
+      "position": "right"
+    }
+  }
+}
